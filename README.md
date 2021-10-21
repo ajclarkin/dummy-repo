@@ -9,3 +9,4 @@ This is for playing around with as part of a course.
 - Sycamore
 - Rowan
 - Cherry
+- Oak

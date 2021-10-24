@@ -24,3 +24,5 @@ Note that the local repo might not be up to date with the online version. `git f
 - `git pull` updates the local branch to match what's online
 - `git push` pushes the local commits back up to the online repo
 - `git push -u origin <branch-name>` pushes a new local branch up to the online repo
+
+If working with an online repository - and especially if collaborating - should pull be fore pushing to make sure that everything is up to date.

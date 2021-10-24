@@ -10,3 +10,13 @@ This is for playing around with as part of a course.
 - Rowan
 - Cherry
 - Oak
+
+
+#### How many cranes are there? ####
+4
+
+Oh, this is good. I'm now in the correct branch.
+I should have called the branch `cranes` but I didn't.
+
+*Colours*
+Today the cranes are yellow. There is a man in an orange jacket climbing up inside the crane. I hope he doesn't fall.

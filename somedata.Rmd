@@ -1,0 +1,36 @@
+---
+title: "Some Data"
+author: "AJ Clarkin"
+date: "26/10/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Using GitHub with RStudio
+
+Just a few quick changes because that's what I'm supposed to do.
+
+```{r setup}
+library(tidyverse)
+
+x <- c(1:10)
+y = floor(runif(10, min=1, max=101))
+
+dd = tibble(x, y)
+```
+
+### Do some drawing
+
+Here's a quick line chart of the data generated above.
+
+
+```{r draw}
+dd %>% ggplot(aes(x=x, y=y)) +
+  geom_line()
+```
+
+
+

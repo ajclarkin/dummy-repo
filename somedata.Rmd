@@ -29,7 +29,8 @@ Here's a quick line chart of the data generated above.
 
 ```{r draw}
 dd %>% ggplot(aes(x=x, y=y)) +
-  geom_line()
+  geom_line() +
+  theme_dark()
 ```
 
 
